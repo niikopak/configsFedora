@@ -1,0 +1,17 @@
+current_playlist=0
+playlist=Список
+current=0
+file=/home/niko/Музыка/11. Dream Sweet in Sea Major.mp3
+album=Hawaii: Part II
+artist=ミラクルミュージカル
+comment=www.mediahuman.com
+title=Dream Sweet in Sea Major
+year=2012
+bitrate=192
+bits_per_sample=32
+channels=2
+decoder=mpeg
+file_size=10154413
+format_name=MPEG-1 layer 3
+samplerate=44100
+duration=420048

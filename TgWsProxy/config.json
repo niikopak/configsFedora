@@ -1,0 +1,24 @@
+{
+  "port": 1443,
+  "host": "127.0.0.1",
+  "dc_ip": [
+    "2:149.154.167.220",
+    "4:149.154.167.220"
+  ],
+  "verbose": false,
+  "check_updates": true,
+  "log_max_mb": 5,
+  "buf_kb": 256,
+  "pool_size": 4,
+  "cfproxy": true,
+  "h2": true,
+  "cfproxy_user_domain_enabled": false,
+  "cfproxy_user_domain": [],
+  "cfproxy_worker_enabled": false,
+  "cfproxy_worker_domain": [],
+  "force_test_dc": false,
+  "no_secure": false,
+  "appearance": "auto",
+  "secret": "e3ec19b70b2e8cb6c5e41095211a1c46",
+  "language": "ru"
+}

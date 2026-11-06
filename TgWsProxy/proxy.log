@@ -1,0 +1,197 @@
+2026-11-06 19:02:13  INFO   tg-ws-tray  TG WS Proxy версия 1.11.2 starting
+2026-11-06 19:02:13  INFO   tg-ws-tray  Config: {'port': 1443, 'host': '127.0.0.1', 'dc_ip': ['2:149.154.167.220', '4:149.154.167.220'], 'verbose': False, 'check_updates': True, 'log_max_mb': 5, 'buf_kb': 256, 'pool_size': 4, 'cfproxy': True, 'h2': True, 'cfproxy_user_domain_enabled': False, 'cfproxy_user_domain': [], 'cfproxy_worker_enabled': False, 'cfproxy_worker_domain': [], 'force_test_dc': False, 'no_secure': False, 'appearance': 'auto', 'secret': 'e3ec19b70b2e8cb6c5e41095211a1c46', 'language': 'ru'}
+2026-11-06 19:02:13  INFO   tg-ws-tray  Log file: /home/niko/.config/TgWsProxy/proxy.log
+2026-11-06 19:02:13  INFO   tg-ws-tray  Starting proxy on 127.0.0.1:1443 ...
+2026-11-06 19:02:13  INFO   tg-mtproto-proxy  ============================================================
+2026-11-06 19:02:13  INFO   tg-mtproto-proxy    Telegram MTProto WS Bridge Proxy
+2026-11-06 19:02:13  INFO   tg-mtproto-proxy    Listening on   127.0.0.1:1443
+2026-11-06 19:02:13  INFO   tg-mtproto-proxy    Secret:        e3ec19b70b2e8cb6c5e41095211a1c46
+2026-11-06 19:02:13  INFO   tg-mtproto-proxy    Target DC IPs:
+2026-11-06 19:02:13  INFO   tg-mtproto-proxy      DC2: 149.154.167.220
+2026-11-06 19:02:13  INFO   tg-mtproto-proxy      DC4: 149.154.167.220
+2026-11-06 19:02:13  INFO   tg-mtproto-proxy    CF proxy:      enabled (auto)
+2026-11-06 19:02:13  INFO   tg-mtproto-proxy    CF H2 media:   enabled
+2026-11-06 19:02:13  INFO   tg-mtproto-proxy  ============================================================
+2026-11-06 19:02:13  INFO   tg-mtproto-proxy    Connect:
+2026-11-06 19:02:13  INFO   tg-mtproto-proxy      tg://proxy?server=127.0.0.1&port=1443&secret=dde3ec19b70b2e8cb6c5e41095211a1c46
+2026-11-06 19:02:13  INFO   tg-mtproto-proxy  ============================================================
+2026-11-06 19:02:13  INFO   tg-mtproto-proxy  WS pool warmup started for 2 DC(s)
+2026-11-06 19:02:13  INFO   tg-mtproto-proxy  CF proxy domain pool updated from GitHub (20 domains)
+2026-11-06 19:02:13  INFO   tg-ws-tray  Tray icon running
+2026-11-06 19:02:28  INFO   tg-mtproto-proxy  WS pool refill failed for DC2, retry in 1s
+2026-11-06 19:02:28  INFO   tg-mtproto-proxy  WS pool refill failed for DC4, retry in 1s
+2026-11-06 19:02:43  INFO   tg-mtproto-proxy  WS pool refill failed for DC2m, retry in 1s
+2026-11-06 19:02:43  INFO   tg-mtproto-proxy  WS pool refill failed for DC4m, retry in 1s
+2026-11-06 19:02:48  INFO   tg-mtproto-proxy  WS pool refill failed for DC2, retry in 2s
+2026-11-06 19:02:48  INFO   tg-mtproto-proxy  WS pool refill failed for DC4, retry in 2s
+2026-11-06 19:03:08  INFO   tg-mtproto-proxy  WS pool refill failed for DC2, retry in 4s
+2026-11-06 19:03:08  INFO   tg-mtproto-proxy  WS pool refill failed for DC4, retry in 4s
+2026-11-06 19:03:13  INFO   tg-mtproto-proxy  stats: total=0 active=0 ws=0 h2=0 h2_tcp=0 h2_req=0 h2_err=0 tcp_fb=0 cf=0 front=0 bad=0 masked=0 err=104 pool=n/a cf_pool=n/a up=0.0B down=0.0B
+2026-11-06 19:03:18  INFO   tg-mtproto-proxy  WS pool refill failed for DC2m, retry in 2s
+2026-11-06 19:03:18  INFO   tg-mtproto-proxy  WS pool refill failed for DC4m, retry in 2s
+2026-11-06 19:03:28  INFO   tg-mtproto-proxy  WS pool refill failed for DC2, retry in 8s
+2026-11-06 19:03:28  INFO   tg-mtproto-proxy  WS pool refill failed for DC4, retry in 8s
+2026-11-06 19:03:50  INFO   tg-mtproto-proxy  WS pool refill failed for DC4m, retry in 4s
+2026-11-06 19:03:51  INFO   tg-mtproto-proxy  WS pool refill failed for DC2, retry in 16s
+2026-11-06 19:03:51  INFO   tg-mtproto-proxy  WS pool refill failed for DC4, retry in 16s
+2026-11-06 19:03:53  INFO   tg-mtproto-proxy  WS pool refill failed for DC2m, retry in 4s
+2026-11-06 19:04:13  INFO   tg-mtproto-proxy  stats: total=0 active=0 ws=0 h2=0 h2_tcp=0 h2_req=0 h2_err=0 tcp_fb=0 cf=0 front=0 bad=0 masked=0 err=192 pool=n/a cf_pool=n/a up=0.0B down=0.0B
+2026-11-06 19:04:22  INFO   tg-mtproto-proxy  WS pool refill failed for DC2, retry in 32s
+2026-11-06 19:04:22  INFO   tg-mtproto-proxy  WS pool refill failed for DC4, retry in 32s
+2026-11-06 19:04:24  INFO   tg-mtproto-proxy  WS pool refill failed for DC4m, retry in 8s
+2026-11-06 19:04:27  INFO   tg-mtproto-proxy  WS pool refill failed for DC2m, retry in 8s
+2026-11-06 19:05:02  INFO   tg-mtproto-proxy  WS pool refill failed for DC4m, retry in 16s
+2026-11-06 19:05:05  INFO   tg-mtproto-proxy  WS pool refill failed for DC2m, retry in 16s
+2026-11-06 19:05:09  INFO   tg-mtproto-proxy  WS pool refill failed for DC2, retry in 64s
+2026-11-06 19:05:09  INFO   tg-mtproto-proxy  WS pool refill failed for DC4, retry in 64s
+2026-11-06 19:05:13  INFO   tg-mtproto-proxy  stats: total=0 active=0 ws=0 h2=0 h2_tcp=0 h2_req=0 h2_err=0 tcp_fb=0 cf=0 front=0 bad=0 masked=0 err=272 pool=n/a cf_pool=n/a up=0.0B down=0.0B
+2026-11-06 19:05:18  INFO   tg-mtproto-proxy  [127.0.0.1:44196] DC2 WS pool unavailable -> fallback
+2026-11-06 19:05:18  INFO   tg-mtproto-proxy  [127.0.0.1:44196] DC2 -> trying CF proxy
+2026-11-06 19:05:19  INFO   tg-mtproto-proxy  [127.0.0.1:44196] DC2 WS session closed (normal): ^737.0B (3 pkts) v304.0B (2 pkts) in 0.7s
+2026-11-06 19:05:19  INFO   tg-mtproto-proxy  [127.0.0.1:60730] DC2 WS pool unavailable -> fallback
+2026-11-06 19:05:19  INFO   tg-mtproto-proxy  [127.0.0.1:60730] DC2 -> trying CF proxy
+2026-11-06 19:05:19  INFO   tg-mtproto-proxy  [127.0.0.1:44196] DC2 fallback closed
+2026-11-06 19:05:21  INFO   tg-mtproto-proxy  [127.0.0.1:60734] DC2 media WS pool unavailable -> fallback
+2026-11-06 19:05:21  INFO   tg-mtproto-proxy  [127.0.0.1:60734] ROUTE DC2 media -> H2 lane=1 channel=1 host=kw**.nothin******.c*.uk channels=1 tcp_connections=1
+2026-11-06 19:05:22  INFO   tg-mtproto-proxy  [127.0.0.1:60738] DC4 WS pool unavailable -> fallback
+2026-11-06 19:05:22  INFO   tg-mtproto-proxy  [127.0.0.1:60738] DC4 -> trying CF proxy
+2026-11-06 19:05:22  INFO   tg-mtproto-proxy  [127.0.0.1:60746] DC5 WS pool unavailable -> fallback
+2026-11-06 19:05:22  INFO   tg-mtproto-proxy  [127.0.0.1:60746] DC5 -> trying CF proxy
+2026-11-06 19:05:23  INFO   tg-mtproto-proxy  [127.0.0.1:60758] DC2 media WS pool unavailable -> fallback
+2026-11-06 19:05:23  INFO   tg-mtproto-proxy  [127.0.0.1:60758] ROUTE DC2 media -> H2 lane=1 channel=2 host=kw**.nothin******.c*.uk channels=2 tcp_connections=1
+2026-11-06 19:05:23  INFO   tg-mtproto-proxy  [127.0.0.1:60746] DC5 WS session closed (normal): ^300.0B (1 pkts) v0.0B (0 pkts) in 0.2s
+2026-11-06 19:05:23  INFO   tg-mtproto-proxy  [127.0.0.1:60762] DC5 WS pool unavailable -> fallback
+2026-11-06 19:05:23  INFO   tg-mtproto-proxy  [127.0.0.1:60762] DC5 -> trying CF proxy
+2026-11-06 19:05:23  INFO   tg-mtproto-proxy  [127.0.0.1:60746] DC5 fallback closed
+2026-11-06 19:05:25  INFO   tg-mtproto-proxy  [127.0.0.1:60770] DC2 media WS pool unavailable -> fallback
+2026-11-06 19:05:25  INFO   tg-mtproto-proxy  [127.0.0.1:60770] ROUTE DC2 media -> H2 lane=1 channel=3 host=kw**.nothin******.c*.uk channels=3 tcp_connections=1
+2026-11-06 19:05:29  INFO   tg-mtproto-proxy  [127.0.0.1:58050] DC2 media WS pool unavailable -> fallback
+2026-11-06 19:05:29  INFO   tg-mtproto-proxy  [127.0.0.1:58050] ROUTE DC2 media -> H2 lane=1 channel=4 host=kw**.nothin******.c*.uk channels=4 tcp_connections=1
+2026-11-06 19:05:30  INFO   tg-mtproto-proxy  [127.0.0.1:58056] DC2 media WS pool unavailable -> fallback
+2026-11-06 19:05:30  INFO   tg-mtproto-proxy  [127.0.0.1:58056] ROUTE DC2 media -> H2 lane=1 channel=5 host=kw**.nothin******.c*.uk channels=5 tcp_connections=1
+2026-11-06 19:05:39  INFO   tg-mtproto-proxy  [127.0.0.1:60738] DC4 WS session closed (normal): ^2.8KB (7 pkts) v1.9KB (8 pkts) in 16.3s
+2026-11-06 19:05:39  INFO   tg-mtproto-proxy  [127.0.0.1:60738] DC4 fallback closed
+2026-11-06 19:05:42  INFO   tg-mtproto-proxy  [127.0.0.1:60762] DC5 WS session closed (normal): ^2.3KB (7 pkts) v10.0KB (7 pkts) in 18.4s
+2026-11-06 19:05:43  INFO   tg-mtproto-proxy  [127.0.0.1:60762] DC5 fallback closed
+2026-11-06 19:05:46  INFO   tg-mtproto-proxy  [127.0.0.1:58056] DC2 media fallback closed
+2026-11-06 19:05:46  INFO   tg-mtproto-proxy  [127.0.0.1:60734] DC2 media fallback closed
+2026-11-06 19:05:46  INFO   tg-mtproto-proxy  [127.0.0.1:60770] DC2 media fallback closed
+2026-11-06 19:05:46  INFO   tg-mtproto-proxy  [127.0.0.1:58050] DC2 media fallback closed
+2026-11-06 19:05:46  INFO   tg-mtproto-proxy  [127.0.0.1:60758] DC2 media fallback closed
+2026-11-06 19:05:48  INFO   tg-mtproto-proxy  WS pool refill failed for DC4m, retry in 32s
+2026-11-06 19:05:51  INFO   tg-mtproto-proxy  WS pool refill failed for DC2m, retry in 32s
+2026-11-06 19:05:58  INFO   tg-mtproto-proxy  [127.0.0.1:41356] DC2 media WS pool unavailable -> fallback
+2026-11-06 19:05:58  INFO   tg-mtproto-proxy  [127.0.0.1:41356] ROUTE DC2 media -> H2 lane=1 channel=6 host=kw**.nothin******.c*.uk channels=1 tcp_connections=1
+2026-11-06 19:05:58  INFO   tg-mtproto-proxy  [127.0.0.1:41348] DC2 media WS pool unavailable -> fallback
+2026-11-06 19:05:58  INFO   tg-mtproto-proxy  [127.0.0.1:41348] ROUTE DC2 media -> H2 lane=1 channel=7 host=kw**.nothin******.c*.uk channels=2 tcp_connections=1
+2026-11-06 19:05:58  INFO   tg-mtproto-proxy  [127.0.0.1:41372] DC4 media WS pool unavailable -> fallback
+2026-11-06 19:05:58  INFO   tg-mtproto-proxy  [127.0.0.1:41374] DC2 media WS pool unavailable -> fallback
+2026-11-06 19:05:58  INFO   tg-mtproto-proxy  [127.0.0.1:41374] ROUTE DC2 media -> H2 lane=1 channel=8 host=kw**.nothin******.c*.uk channels=3 tcp_connections=1
+2026-11-06 19:05:58  INFO   tg-mtproto-proxy  [127.0.0.1:41372] ROUTE DC4 media -> H2 lane=2 channel=9 host=kw**.pomo****.c*.uk channels=1 tcp_connections=1
+2026-11-06 19:06:13  INFO   tg-mtproto-proxy  stats: total=14 active=5 ws=0 h2=9 h2_tcp=2 h2_req=165 h2_err=0 tcp_fb=0 cf=14 front=0 bad=0 masked=0 err=304 pool=0/12 cf_pool=n/a up=107.3KB down=12.8MB
+2026-11-06 19:06:15  INFO   tg-mtproto-proxy  [127.0.0.1:41372] DC4 media fallback closed
+2026-11-06 19:06:15  INFO   tg-mtproto-proxy  [127.0.0.1:41348] DC2 media fallback closed
+2026-11-06 19:06:15  INFO   tg-mtproto-proxy  [127.0.0.1:41356] DC2 media fallback closed
+2026-11-06 19:06:15  INFO   tg-mtproto-proxy  [127.0.0.1:41374] DC2 media fallback closed
+2026-11-06 19:06:28  INFO   tg-mtproto-proxy  WS pool refill failed for DC2, retry in 128s
+2026-11-06 19:06:28  INFO   tg-mtproto-proxy  WS pool refill failed for DC4, retry in 128s
+2026-11-06 19:06:50  INFO   tg-mtproto-proxy  WS pool refill failed for DC4m, retry in 64s
+2026-11-06 19:06:53  INFO   tg-mtproto-proxy  WS pool refill failed for DC2m, retry in 64s
+2026-11-06 19:07:13  INFO   tg-mtproto-proxy  stats: total=14 active=1 ws=0 h2=9 h2_tcp=2 h2_req=166 h2_err=0 tcp_fb=0 cf=14 front=0 bad=0 masked=0 err=352 pool=0/12 cf_pool=n/a up=110.0KB down=12.8MB
+2026-11-06 19:08:13  INFO   tg-mtproto-proxy  stats: total=14 active=1 ws=0 h2=9 h2_tcp=2 h2_req=166 h2_err=0 tcp_fb=0 cf=14 front=0 bad=0 masked=0 err=368 pool=0/12 cf_pool=n/a up=111.1KB down=12.8MB
+2026-11-06 19:08:24  INFO   tg-mtproto-proxy  WS pool refill failed for DC4m, retry in 128s
+2026-11-06 19:08:27  INFO   tg-mtproto-proxy  WS pool refill failed for DC2m, retry in 128s
+2026-11-06 19:08:51  INFO   tg-mtproto-proxy  WS pool refill failed for DC2, retry in 256s
+2026-11-06 19:08:51  INFO   tg-mtproto-proxy  WS pool refill failed for DC4, retry in 256s
+2026-11-06 19:09:13  INFO   tg-mtproto-proxy  stats: total=14 active=1 ws=0 h2=9 h2_tcp=2 h2_req=166 h2_err=0 tcp_fb=0 cf=14 front=0 bad=0 masked=0 err=400 pool=0/12 cf_pool=n/a up=112.9KB down=12.8MB
+2026-11-06 19:10:13  INFO   tg-mtproto-proxy  stats: total=14 active=1 ws=0 h2=9 h2_tcp=2 h2_req=166 h2_err=0 tcp_fb=0 cf=14 front=0 bad=0 masked=0 err=400 pool=0/12 cf_pool=n/a up=114.8KB down=12.8MB
+2026-11-06 19:11:02  INFO   tg-mtproto-proxy  WS pool refill failed for DC4m, retry in 256s
+2026-11-06 19:11:05  INFO   tg-mtproto-proxy  WS pool refill failed for DC2m, retry in 256s
+2026-11-06 19:11:13  INFO   tg-mtproto-proxy  stats: total=14 active=1 ws=0 h2=9 h2_tcp=2 h2_req=166 h2_err=0 tcp_fb=0 cf=14 front=0 bad=0 masked=0 err=432 pool=0/12 cf_pool=n/a up=116.1KB down=12.8MB
+2026-11-06 19:12:13  INFO   tg-mtproto-proxy  stats: total=14 active=1 ws=0 h2=9 h2_tcp=2 h2_req=166 h2_err=0 tcp_fb=0 cf=14 front=0 bad=0 masked=0 err=432 pool=0/12 cf_pool=n/a up=116.9KB down=12.8MB
+2026-11-06 19:13:03  INFO   tg-mtproto-proxy  [127.0.0.1:47518] DC2 media WS pool unavailable -> fallback
+2026-11-06 19:13:03  INFO   tg-mtproto-proxy  [127.0.0.1:47518] ROUTE DC2 media -> H2 lane=1 channel=10 host=kw**.nothin******.c*.uk channels=1 tcp_connections=1
+2026-11-06 19:13:13  INFO   tg-mtproto-proxy  stats: total=15 active=2 ws=0 h2=10 h2_tcp=3 h2_req=175 h2_err=0 tcp_fb=0 cf=15 front=0 bad=0 masked=0 err=432 pool=0/13 cf_pool=n/a up=120.8KB down=12.8MB
+2026-11-06 19:13:18  INFO   tg-mtproto-proxy  [127.0.0.1:47518] DC2 media fallback closed
+2026-11-06 19:13:22  INFO   tg-mtproto-proxy  WS pool refill failed for DC2, retry in 512s
+2026-11-06 19:13:22  INFO   tg-mtproto-proxy  WS pool refill failed for DC4, retry in 512s
+2026-11-06 19:14:13  INFO   tg-mtproto-proxy  stats: total=15 active=1 ws=0 h2=10 h2_tcp=3 h2_req=177 h2_err=0 tcp_fb=0 cf=15 front=0 bad=0 masked=0 err=448 pool=0/13 cf_pool=n/a up=123.3KB down=12.9MB
+2026-11-06 19:15:13  INFO   tg-mtproto-proxy  stats: total=15 active=1 ws=0 h2=10 h2_tcp=3 h2_req=177 h2_err=0 tcp_fb=0 cf=15 front=0 bad=0 masked=0 err=448 pool=0/13 cf_pool=n/a up=124.2KB down=12.9MB
+2026-11-06 19:15:48  INFO   tg-mtproto-proxy  WS pool refill failed for DC4m, retry in 512s
+2026-11-06 19:15:51  INFO   tg-mtproto-proxy  WS pool refill failed for DC2m, retry in 512s
+2026-11-06 19:16:13  INFO   tg-mtproto-proxy  stats: total=15 active=1 ws=0 h2=10 h2_tcp=3 h2_req=177 h2_err=0 tcp_fb=0 cf=15 front=0 bad=0 masked=0 err=480 pool=0/13 cf_pool=n/a up=125.3KB down=12.9MB
+2026-11-06 19:17:13  INFO   tg-mtproto-proxy  stats: total=15 active=1 ws=0 h2=10 h2_tcp=3 h2_req=177 h2_err=0 tcp_fb=0 cf=15 front=0 bad=0 masked=0 err=480 pool=0/13 cf_pool=n/a up=126.2KB down=12.9MB
+2026-11-06 19:17:48  INFO   tg-mtproto-proxy  [127.0.0.1:34338] DC2 media WS pool unavailable -> fallback
+2026-11-06 19:17:48  INFO   tg-mtproto-proxy  [127.0.0.1:34338] ROUTE DC2 media -> H2 lane=1 channel=11 host=kw**.nothin******.c*.uk channels=1 tcp_connections=2
+2026-11-06 19:18:03  INFO   tg-mtproto-proxy  [127.0.0.1:34338] DC2 media fallback closed
+2026-11-06 19:18:13  INFO   tg-mtproto-proxy  stats: total=16 active=1 ws=0 h2=11 h2_tcp=3 h2_req=188 h2_err=0 tcp_fb=0 cf=16 front=0 bad=0 masked=0 err=480 pool=0/14 cf_pool=n/a up=130.1KB down=12.9MB
+2026-11-06 19:18:41  INFO   tg-mtproto-proxy  [127.0.0.1:48072] DC2 media WS pool unavailable -> fallback
+2026-11-06 19:18:41  INFO   tg-mtproto-proxy  [127.0.0.1:48072] ROUTE DC2 media -> H2 lane=1 channel=12 host=kw**.nothin******.c*.uk channels=1 tcp_connections=2
+2026-11-06 19:18:41  INFO   tg-mtproto-proxy  [127.0.0.1:48086] DC4 media WS pool unavailable -> fallback
+2026-11-06 19:18:41  INFO   tg-mtproto-proxy  [127.0.0.1:48086] ROUTE DC4 media -> H2 lane=2 channel=13 host=kw**.pomo****.c*.uk channels=1 tcp_connections=1
+2026-11-06 19:18:56  INFO   tg-mtproto-proxy  [127.0.0.1:48072] DC2 media fallback closed
+2026-11-06 19:18:57  INFO   tg-mtproto-proxy  [127.0.0.1:48086] DC4 media fallback closed
+2026-11-06 19:19:13  INFO   tg-mtproto-proxy  stats: total=18 active=1 ws=0 h2=13 h2_tcp=4 h2_req=210 h2_err=0 tcp_fb=0 cf=18 front=0 bad=0 masked=0 err=480 pool=0/16 cf_pool=n/a up=138.1KB down=12.9MB
+2026-11-06 19:20:13  INFO   tg-mtproto-proxy  stats: total=18 active=1 ws=0 h2=13 h2_tcp=4 h2_req=210 h2_err=0 tcp_fb=0 cf=18 front=0 bad=0 masked=0 err=480 pool=0/16 cf_pool=n/a up=139.1KB down=12.9MB
+2026-11-06 19:21:13  INFO   tg-mtproto-proxy  stats: total=18 active=1 ws=0 h2=13 h2_tcp=4 h2_req=210 h2_err=0 tcp_fb=0 cf=18 front=0 bad=0 masked=0 err=480 pool=0/16 cf_pool=n/a up=140.2KB down=12.9MB
+2026-11-06 19:22:09  INFO   tg-mtproto-proxy  WS pool refill failed for DC2, retry in 1024s
+2026-11-06 19:22:09  INFO   tg-mtproto-proxy  WS pool refill failed for DC4, retry in 1024s
+2026-11-06 19:22:13  INFO   tg-mtproto-proxy  stats: total=18 active=1 ws=0 h2=13 h2_tcp=4 h2_req=210 h2_err=0 tcp_fb=0 cf=18 front=0 bad=0 masked=0 err=496 pool=0/16 cf_pool=n/a up=140.9KB down=12.9MB
+2026-11-06 19:23:13  INFO   tg-mtproto-proxy  stats: total=18 active=1 ws=0 h2=13 h2_tcp=4 h2_req=210 h2_err=0 tcp_fb=0 cf=18 front=0 bad=0 masked=0 err=496 pool=0/16 cf_pool=n/a up=142.2KB down=12.9MB
+2026-11-06 19:24:13  INFO   tg-mtproto-proxy  stats: total=18 active=1 ws=0 h2=13 h2_tcp=4 h2_req=210 h2_err=0 tcp_fb=0 cf=18 front=0 bad=0 masked=0 err=496 pool=0/16 cf_pool=n/a up=143.3KB down=12.9MB
+2026-11-06 19:24:50  INFO   tg-mtproto-proxy  WS pool refill failed for DC4m, retry in 1024s
+2026-11-06 19:24:53  INFO   tg-mtproto-proxy  WS pool refill failed for DC2m, retry in 1024s
+2026-11-06 19:25:13  INFO   tg-mtproto-proxy  stats: total=18 active=1 ws=0 h2=13 h2_tcp=4 h2_req=210 h2_err=0 tcp_fb=0 cf=18 front=0 bad=0 masked=0 err=528 pool=0/16 cf_pool=n/a up=144.3KB down=12.9MB
+2026-11-06 19:26:13  INFO   tg-mtproto-proxy  stats: total=18 active=1 ws=0 h2=13 h2_tcp=4 h2_req=210 h2_err=0 tcp_fb=0 cf=18 front=0 bad=0 masked=0 err=528 pool=0/16 cf_pool=n/a up=145.2KB down=12.9MB
+2026-11-06 19:27:13  INFO   tg-mtproto-proxy  stats: total=18 active=1 ws=0 h2=13 h2_tcp=4 h2_req=210 h2_err=0 tcp_fb=0 cf=18 front=0 bad=0 masked=0 err=528 pool=0/16 cf_pool=n/a up=146.0KB down=12.9MB
+2026-11-06 19:28:13  INFO   tg-mtproto-proxy  stats: total=18 active=1 ws=0 h2=13 h2_tcp=4 h2_req=210 h2_err=0 tcp_fb=0 cf=18 front=0 bad=0 masked=0 err=528 pool=0/16 cf_pool=n/a up=147.0KB down=12.9MB
+2026-11-06 19:29:13  INFO   tg-mtproto-proxy  stats: total=18 active=1 ws=0 h2=13 h2_tcp=4 h2_req=210 h2_err=0 tcp_fb=0 cf=18 front=0 bad=0 masked=0 err=528 pool=0/16 cf_pool=n/a up=148.4KB down=12.9MB
+2026-11-06 19:30:13  INFO   tg-mtproto-proxy  stats: total=18 active=1 ws=0 h2=13 h2_tcp=4 h2_req=210 h2_err=0 tcp_fb=0 cf=18 front=0 bad=0 masked=0 err=528 pool=0/16 cf_pool=n/a up=149.7KB down=12.9MB
+2026-11-06 19:31:01  INFO   tg-mtproto-proxy  [127.0.0.1:38140] DC2 media WS pool unavailable -> fallback
+2026-11-06 19:31:01  INFO   tg-mtproto-proxy  [127.0.0.1:38140] ROUTE DC2 media -> H2 lane=1 channel=14 host=kw**.nothin******.c*.uk channels=1 tcp_connections=2
+2026-11-06 19:31:13  INFO   tg-mtproto-proxy  stats: total=19 active=2 ws=0 h2=14 h2_tcp=5 h2_req=220 h2_err=0 tcp_fb=0 cf=19 front=0 bad=0 masked=0 err=528 pool=0/17 cf_pool=n/a up=153.5KB down=13.0MB
+2026-11-06 19:31:17  INFO   tg-mtproto-proxy  [127.0.0.1:38140] DC2 media fallback closed
+2026-11-06 19:32:13  INFO   tg-mtproto-proxy  stats: total=19 active=1 ws=0 h2=14 h2_tcp=5 h2_req=221 h2_err=0 tcp_fb=0 cf=19 front=0 bad=0 masked=0 err=528 pool=0/17 cf_pool=n/a up=155.7KB down=13.0MB
+2026-11-06 19:33:13  INFO   tg-mtproto-proxy  stats: total=19 active=1 ws=0 h2=14 h2_tcp=5 h2_req=221 h2_err=0 tcp_fb=0 cf=19 front=0 bad=0 masked=0 err=528 pool=0/17 cf_pool=n/a up=156.9KB down=13.0MB
+2026-11-06 19:34:13  INFO   tg-mtproto-proxy  stats: total=19 active=1 ws=0 h2=14 h2_tcp=5 h2_req=221 h2_err=0 tcp_fb=0 cf=19 front=0 bad=0 masked=0 err=528 pool=0/17 cf_pool=n/a up=157.6KB down=13.0MB
+2026-11-06 19:35:13  INFO   tg-mtproto-proxy  stats: total=19 active=1 ws=0 h2=14 h2_tcp=5 h2_req=221 h2_err=0 tcp_fb=0 cf=19 front=0 bad=0 masked=0 err=528 pool=0/17 cf_pool=n/a up=158.0KB down=13.0MB
+2026-11-06 19:36:13  INFO   tg-mtproto-proxy  stats: total=19 active=1 ws=0 h2=14 h2_tcp=5 h2_req=221 h2_err=0 tcp_fb=0 cf=19 front=0 bad=0 masked=0 err=528 pool=0/17 cf_pool=n/a up=158.9KB down=13.0MB
+2026-11-06 19:37:13  INFO   tg-mtproto-proxy  stats: total=19 active=1 ws=0 h2=14 h2_tcp=5 h2_req=221 h2_err=0 tcp_fb=0 cf=19 front=0 bad=0 masked=0 err=528 pool=0/17 cf_pool=n/a up=159.8KB down=13.0MB
+2026-11-06 19:38:13  INFO   tg-mtproto-proxy  stats: total=19 active=1 ws=0 h2=14 h2_tcp=5 h2_req=221 h2_err=0 tcp_fb=0 cf=19 front=0 bad=0 masked=0 err=528 pool=0/17 cf_pool=n/a up=160.2KB down=13.0MB
+2026-11-06 19:39:13  INFO   tg-mtproto-proxy  stats: total=19 active=1 ws=0 h2=14 h2_tcp=5 h2_req=221 h2_err=0 tcp_fb=0 cf=19 front=0 bad=0 masked=0 err=528 pool=0/17 cf_pool=n/a up=161.4KB down=13.0MB
+2026-11-06 19:39:28  INFO   tg-mtproto-proxy  WS pool refill failed for DC2, retry in 2048s
+2026-11-06 19:39:28  INFO   tg-mtproto-proxy  WS pool refill failed for DC4, retry in 2048s
+2026-11-06 19:40:13  INFO   tg-mtproto-proxy  stats: total=19 active=1 ws=0 h2=14 h2_tcp=5 h2_req=221 h2_err=0 tcp_fb=0 cf=19 front=0 bad=0 masked=0 err=544 pool=0/17 cf_pool=n/a up=162.2KB down=13.0MB
+2026-11-06 19:41:13  INFO   tg-mtproto-proxy  stats: total=19 active=1 ws=0 h2=14 h2_tcp=5 h2_req=221 h2_err=0 tcp_fb=0 cf=19 front=0 bad=0 masked=0 err=544 pool=0/17 cf_pool=n/a up=162.9KB down=13.0MB
+2026-11-06 19:42:13  INFO   tg-mtproto-proxy  stats: total=19 active=1 ws=0 h2=14 h2_tcp=5 h2_req=221 h2_err=0 tcp_fb=0 cf=19 front=0 bad=0 masked=0 err=560 pool=0/17 cf_pool=n/a up=163.6KB down=13.0MB
+2026-11-06 19:42:24  INFO   tg-mtproto-proxy  WS pool refill failed for DC4m, retry in 2048s
+2026-11-06 19:42:27  INFO   tg-mtproto-proxy  WS pool refill failed for DC2m, retry in 2048s
+2026-11-06 19:43:13  INFO   tg-mtproto-proxy  stats: total=19 active=1 ws=0 h2=14 h2_tcp=5 h2_req=221 h2_err=0 tcp_fb=0 cf=19 front=0 bad=0 masked=0 err=576 pool=0/17 cf_pool=n/a up=164.5KB down=13.0MB
+2026-11-06 19:44:13  INFO   tg-mtproto-proxy  stats: total=19 active=1 ws=0 h2=14 h2_tcp=5 h2_req=221 h2_err=0 tcp_fb=0 cf=19 front=0 bad=0 masked=0 err=576 pool=0/17 cf_pool=n/a up=165.6KB down=13.0MB
+2026-11-06 19:45:13  INFO   tg-mtproto-proxy  stats: total=19 active=1 ws=0 h2=14 h2_tcp=5 h2_req=221 h2_err=0 tcp_fb=0 cf=19 front=0 bad=0 masked=0 err=576 pool=0/17 cf_pool=n/a up=166.2KB down=13.0MB
+2026-11-06 19:46:14  INFO   tg-mtproto-proxy  stats: total=19 active=1 ws=0 h2=14 h2_tcp=5 h2_req=221 h2_err=0 tcp_fb=0 cf=19 front=0 bad=0 masked=0 err=576 pool=0/17 cf_pool=n/a up=167.3KB down=13.0MB
+2026-11-06 19:47:14  INFO   tg-mtproto-proxy  stats: total=19 active=1 ws=0 h2=14 h2_tcp=5 h2_req=221 h2_err=0 tcp_fb=0 cf=19 front=0 bad=0 masked=0 err=576 pool=0/17 cf_pool=n/a up=168.4KB down=13.0MB
+2026-11-06 19:48:14  INFO   tg-mtproto-proxy  stats: total=19 active=1 ws=0 h2=14 h2_tcp=5 h2_req=221 h2_err=0 tcp_fb=0 cf=19 front=0 bad=0 masked=0 err=576 pool=0/17 cf_pool=n/a up=169.1KB down=13.0MB
+2026-11-06 19:49:14  INFO   tg-mtproto-proxy  stats: total=19 active=1 ws=0 h2=14 h2_tcp=5 h2_req=221 h2_err=0 tcp_fb=0 cf=19 front=0 bad=0 masked=0 err=576 pool=0/17 cf_pool=n/a up=170.2KB down=13.0MB
+2026-11-06 19:49:40  INFO   tg-mtproto-proxy  [127.0.0.1:39776] DC2 media WS pool unavailable -> fallback
+2026-11-06 19:49:40  INFO   tg-mtproto-proxy  [127.0.0.1:39776] ROUTE DC2 media -> H2 lane=1 channel=15 host=kw**.nothin******.c*.uk channels=1 tcp_connections=3
+2026-11-06 19:49:55  INFO   tg-mtproto-proxy  [127.0.0.1:39776] DC2 media fallback closed
+2026-11-06 19:50:14  INFO   tg-mtproto-proxy  stats: total=20 active=1 ws=0 h2=15 h2_tcp=6 h2_req=232 h2_err=0 tcp_fb=0 cf=20 front=0 bad=0 masked=0 err=576 pool=0/18 cf_pool=n/a up=174.0KB down=13.0MB
+2026-11-06 19:51:14  INFO   tg-mtproto-proxy  stats: total=20 active=1 ws=0 h2=15 h2_tcp=6 h2_req=232 h2_err=0 tcp_fb=0 cf=20 front=0 bad=0 masked=0 err=576 pool=0/18 cf_pool=n/a up=175.0KB down=13.0MB
+2026-11-06 19:52:14  INFO   tg-mtproto-proxy  stats: total=20 active=1 ws=0 h2=15 h2_tcp=6 h2_req=232 h2_err=0 tcp_fb=0 cf=20 front=0 bad=0 masked=0 err=576 pool=0/18 cf_pool=n/a up=175.4KB down=13.0MB
+2026-11-06 19:53:14  INFO   tg-mtproto-proxy  stats: total=20 active=1 ws=0 h2=15 h2_tcp=6 h2_req=232 h2_err=0 tcp_fb=0 cf=20 front=0 bad=0 masked=0 err=576 pool=0/18 cf_pool=n/a up=176.4KB down=13.0MB
+2026-11-06 19:54:14  INFO   tg-mtproto-proxy  stats: total=20 active=1 ws=0 h2=15 h2_tcp=6 h2_req=232 h2_err=0 tcp_fb=0 cf=20 front=0 bad=0 masked=0 err=576 pool=0/18 cf_pool=n/a up=176.9KB down=13.0MB
+2026-11-06 19:55:14  INFO   tg-mtproto-proxy  stats: total=20 active=1 ws=0 h2=15 h2_tcp=6 h2_req=232 h2_err=0 tcp_fb=0 cf=20 front=0 bad=0 masked=0 err=576 pool=0/18 cf_pool=n/a up=177.6KB down=13.0MB
+2026-11-06 19:56:14  INFO   tg-mtproto-proxy  stats: total=20 active=1 ws=0 h2=15 h2_tcp=6 h2_req=232 h2_err=0 tcp_fb=0 cf=20 front=0 bad=0 masked=0 err=576 pool=0/18 cf_pool=n/a up=178.7KB down=13.0MB
+2026-11-06 19:57:14  INFO   tg-mtproto-proxy  stats: total=20 active=1 ws=0 h2=15 h2_tcp=6 h2_req=232 h2_err=0 tcp_fb=0 cf=20 front=0 bad=0 masked=0 err=576 pool=0/18 cf_pool=n/a up=180.4KB down=13.0MB
+2026-11-06 19:57:18  INFO   tg-mtproto-proxy  [127.0.0.1:60730] DC2 WS session closed (upstream: tcp_reset): ^88.5KB (282 pkts) v1.5MB (593 pkts) in 3118.8s
+2026-11-06 19:57:18  INFO   tg-mtproto-proxy  [127.0.0.1:60730] DC2 fallback closed
+2026-11-06 19:57:18  INFO   tg-mtproto-proxy  [127.0.0.1:58972] DC2 WS pool unavailable -> fallback
+2026-11-06 19:57:18  INFO   tg-mtproto-proxy  [127.0.0.1:58972] DC2 -> trying CF proxy
+2026-11-06 19:58:14  INFO   tg-mtproto-proxy  stats: total=21 active=1 ws=0 h2=15 h2_tcp=6 h2_req=232 h2_err=0 tcp_fb=0 cf=21 front=0 bad=0 masked=0 err=576 pool=0/19 cf_pool=n/a up=181.3KB down=13.0MB
+2026-11-06 19:59:14  INFO   tg-mtproto-proxy  stats: total=21 active=1 ws=0 h2=15 h2_tcp=6 h2_req=232 h2_err=0 tcp_fb=0 cf=21 front=0 bad=0 masked=0 err=576 pool=0/19 cf_pool=n/a up=181.8KB down=13.0MB
+2026-11-06 20:00:14  INFO   tg-mtproto-proxy  stats: total=21 active=1 ws=0 h2=15 h2_tcp=6 h2_req=232 h2_err=0 tcp_fb=0 cf=21 front=0 bad=0 masked=0 err=576 pool=0/19 cf_pool=n/a up=182.6KB down=13.0MB
+2026-11-06 20:01:14  INFO   tg-mtproto-proxy  stats: total=21 active=1 ws=0 h2=15 h2_tcp=6 h2_req=232 h2_err=0 tcp_fb=0 cf=21 front=0 bad=0 masked=0 err=576 pool=0/19 cf_pool=n/a up=183.4KB down=13.0MB
+2026-11-06 20:02:13  INFO   tg-mtproto-proxy  CF proxy domain pool updated from GitHub (20 domains)
+2026-11-06 20:02:14  INFO   tg-mtproto-proxy  stats: total=21 active=1 ws=0 h2=15 h2_tcp=6 h2_req=232 h2_err=0 tcp_fb=0 cf=21 front=0 bad=0 masked=0 err=576 pool=0/19 cf_pool=n/a up=183.9KB down=13.0MB
+2026-11-06 20:03:14  INFO   tg-mtproto-proxy  stats: total=21 active=1 ws=0 h2=15 h2_tcp=6 h2_req=232 h2_err=0 tcp_fb=0 cf=21 front=0 bad=0 masked=0 err=576 pool=0/19 cf_pool=n/a up=184.3KB down=13.0MB

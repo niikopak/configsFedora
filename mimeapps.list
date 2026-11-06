@@ -1,0 +1,5 @@
+[Default Applications]
+application/x-php=com.visualstudio.code.desktop
+
+[Added Associations]
+application/x-php=com.visualstudio.code.desktop;
